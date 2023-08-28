@@ -9,6 +9,8 @@
   align-items: center;
   border: 2px solid red;
   background-color: rgba(148, 167, 231, 0.521);
+  width: 1920px;
+  height: 850px;
 }
 .flower-image {
   width: 635px;
@@ -38,4 +40,41 @@
   font-size: 20px;
   font-weight: 700;
   margin-top: 20px;
+}
+
+/* Feature section styles */
+.feature-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.feature-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 400;
+  width: 595px;
+  margin: 20px auto;
+}
+.flowers-container {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+.flower-picture {
+  width: 464px;
+  height: 538px;
+  padding-right: 25px;
+  margin-right: 25px;
+  background-color: rgba(238, 130, 238, 0.39);
+  border-radius: 300px 300px 0px 0px;
+}
+.blue {
+  background-color: rgba(135, 207, 235, 0.507);
+}
+.green {
+  background-color: rgba(0, 128, 0, 0.212);
 }
