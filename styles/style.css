@@ -1,0 +1,41 @@
+* {
+  font-family: "EB Garamond", serif;
+}
+
+/* Header Banner section styles */
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid red;
+  background-color: rgba(148, 167, 231, 0.521);
+}
+.flower-image {
+  width: 635px;
+  height: 800px;
+}
+.banner-title {
+  width: 708px;
+  height: 288px;
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+}
+.flower-description {
+  width: 634px;
+  height: 90px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin: 32px 0;
+}
+.banner-btn {
+  width: 177px;
+  padding: 20px 43px;
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
