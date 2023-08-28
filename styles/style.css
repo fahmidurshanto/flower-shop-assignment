@@ -7,7 +7,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 2px solid red;
   background-color: rgba(148, 167, 231, 0.521);
   width: 1920px;
   height: 850px;
@@ -77,4 +76,31 @@
 }
 .green {
   background-color: rgba(0, 128, 0, 0.212);
+}
+
+/* Services section styles */
+.services {
+  background-color: #2727272c;
+  width: 1200px;
+  margin: 100px auto;
+}
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icon {
+  width: 300px;
+  margin: 0 auto;
+  margin: 30px;
+}
+.icon > img {
+  width: 88px;
+  margin: 0 auto;
+}
+.icon > p {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: left;
+  font-size: 24px;
+  font-weight: 600;
 }
