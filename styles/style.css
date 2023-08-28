@@ -1,7 +1,9 @@
 * {
   font-family: "EB Garamond", serif;
 }
-
+body {
+  width: 1920px;
+}
 /* Header Banner section styles */
 .banner-container {
   display: flex;
@@ -10,6 +12,7 @@
   background-color: rgba(148, 167, 231, 0.521);
   width: 1920px;
   height: 850px;
+  margin: 0 auto;
 }
 .flower-image {
   width: 635px;
@@ -139,4 +142,30 @@
 .hot-deal-image {
   width: 315px;
   height: 420px;
+}
+
+/* Instagram section styles */
+.instagram {
+  margin-top: 28px;
+  margin-bottom: 128px;
+}
+.instagram-image-container {
+  text-align: center;
+}
+.instagram-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.instagram-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.instagram-image {
+  width: 342px;
+  height: 396px;
+  padding: 10px;
 }
