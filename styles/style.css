@@ -42,6 +42,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   margin-top: 20px;
+  border-radius: 8px;
 }
 
 /* Feature section styles */
@@ -204,8 +205,10 @@ body {
   width: 150px;
   height: 70px;
   border-radius: 8px;
-  background: #e55473;
+  background-color: #e55473;
   border: none;
+  font-size: 20px;
+  color: white;
 }
 /* Footer section styles */
 footer {
@@ -231,4 +234,42 @@ footer {
   text-align: center;
   font-size: 16px;
   font-weight: 400;
+}
+
+/* Navbar section styles */
+nav {
+  width: 1920px;
+  height: 120px;
+  background-color: rgba(0, 0, 0, 0.664);
+  margin-top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-title {
+  color: #e55473;
+  font-size: 48px;
+  font-weight: 800;
+  padding: 10px;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+.menu li {
+  list-style: none;
+  margin-right: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+.menu li:hover {
+  background-color: lightsalmon;
+  padding: 5px;
 }
