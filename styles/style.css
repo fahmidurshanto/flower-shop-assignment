@@ -175,11 +175,11 @@ body {
   background-image: url("/Flower Asset/Rectangle 9.png");
   width: 1440px;
   margin: 128px auto;
-  padding: 100px;
   background-repeat: no-repeat;
-  border: 1px solid black;
+  padding-bottom: 150px;
 }
 .latest-deal-title {
+  padding-top: 150px;
   color: #272727;
   text-align: center;
   font-size: 40px;
@@ -194,13 +194,41 @@ body {
   width: 700px;
   height: 64px;
   color: rgba(39, 39, 39, 0.6);
-  text-align: center;
+  text-align: left;
+  padding: 10px;
   font-size: 16px;
   font-weight: 400;
+  border: none;
 }
 .subscribe-btn {
   width: 150px;
   height: 70px;
   border-radius: 8px;
   background: #e55473;
+  border: none;
+}
+/* Footer section styles */
+footer {
+  background: #111010;
+  width: 1922px;
+  height: 449px;
+}
+.footer-title {
+  color: #e55473;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 100px;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 }
